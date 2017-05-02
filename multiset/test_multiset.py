@@ -1,7 +1,7 @@
-from multiset.multiset import Multiset
+from multiset.my_multiset import Multiset
 
 data_set = Multiset()
-data_file = open("multiset/data.txt", "r")
+data_file = open("data.txt", "r")
 data_list = data_file.readlines()
 data_file.close()
 for line in data_list:
