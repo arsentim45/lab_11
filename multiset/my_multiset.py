@@ -55,6 +55,6 @@ class Multiset:
                 current = current + 1
         if current < self.firstempty:
             for updated in range(position, self.firstempty):
-                self.date[updated] = self.data[updated + 1]
+                self.data[updated] = self.data[updated + 1]
             self.data[self.firstempty] = None
             self.firstempty = self.firstempty - 1
